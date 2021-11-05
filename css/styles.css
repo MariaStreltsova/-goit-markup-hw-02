@@ -1,2 +1,80 @@
-.root {
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --accent-text-color: #2196f3;
+  --white-color: #ffffff;
+  --background-main-color: #e5e5e5;
+  --background-aditional-color: #f5f4fa;
+  --background-accent-color: #2f303a;
+  --secondary-logo-color: #000000;
+}
+
+body {
+  background-color: var(--background-main-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, Sans-serif;
+  letter-spacing: 0, 03em;
+}
+ul {
+  list-style: none;
+}
+.title {
+  color: var(--secondary-text-color);
+}
+/*logo*/
+.nav .link-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+}
+.accent-logo {
+  color: var(--accent-text-color);
+}
+.part-logo {
+  color: var(--secondary-logo-color);
+}
+.link-logo:hover {
+  color: var(--accent-text-color);
+}
+/*.current.link {
+  color: var(--accent-text-color);*/
+}
+/*navigation*/
+.list-nav .link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--accent-text-color);
+}
+
+.direction .link {
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.direction .link:hover {
+  color: var(--accent-text-color);
+}
+.hero-title {
+  color: var(--white-color);
+  background-color: var(--background-accent-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.button {
+  font-family: inherit;
 }
