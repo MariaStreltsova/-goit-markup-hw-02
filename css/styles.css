@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: var(--background-main-color);
+  background-color: var(--white-color);
   color: var(--primary-text-color);
   font-family: Roboto, Sans-serif;
   letter-spacing: 0, 03em;
@@ -21,26 +21,31 @@ ul {
 .title {
   color: var(--secondary-text-color);
 }
+.link {
+  text-decoration: none;
+}
+
 /*logo*/
+.link-logo:hover,
+.link-logo:focus {
+  color: var(--accent-text-color);
+}
 .nav .link-logo {
   font-family: Raleway, sans-serif;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
+
 .accent-logo {
   color: var(--accent-text-color);
 }
 .part-logo {
   color: var(--secondary-logo-color);
 }
-.link-logo:hover {
-  color: var(--accent-text-color);
-}
-/*.current.link {
-  color: var(--accent-text-color);*/
-}
+
 /*navigation*/
 .list-nav .link {
   color: var(--secondary-text-color);
@@ -49,7 +54,9 @@ ul {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.current.link {
+  color: var(--accent-text-color);
+}
 .link:hover,
 .link:focus {
   color: var(--accent-text-color);
@@ -75,6 +82,20 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
 }
+.hero {
+  background-color: var(--background-accent-color);
+}
 .button {
   font-family: inherit;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+}
+.button-hero {
+  cursor: pointer;
+  background-color: var(--accent-text-color);
+  color: var(--white-color);
 }
