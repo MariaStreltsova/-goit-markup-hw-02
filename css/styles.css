@@ -159,3 +159,35 @@ body {
 .footer {
   background-color: var(--background-accent-color);
 }
+.footer .list-direction {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*------------------------------------------------Portfolio Projects----------------------------------*/
+.button-projects {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: inherit;
+}
+.current.button {
+  color: var(--white-color);
+  background-color: var(--accent-text-color);
+}
+.list-projects .title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+.list-projects .text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
